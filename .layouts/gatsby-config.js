@@ -49,7 +49,7 @@ module.exports = {
               },
               {
                 title: "Source Code",
-                url: "https://github.com/seopbo.github.io",
+                url: "https://github.com/seopbo/seopbo.github.io",
               },
             ],
           },
