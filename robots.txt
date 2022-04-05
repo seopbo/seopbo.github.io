@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://seopbo.github.io/sitemap/sitemap-index.xml
+Host: https://seopbo.github.io
