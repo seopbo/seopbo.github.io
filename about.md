@@ -1,8 +1,8 @@
 ---
-title: About Me and Career
 tags:
   - Me
 ---
+# About Me and Career
 ## About Me
 고양이를 좋아하는 보통의 개발자
 

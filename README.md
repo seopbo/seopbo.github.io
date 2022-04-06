@@ -1,9 +1,9 @@
 ---
-title: Everything I log
 seoTitle: Everything I log by seopbo - A Personal Knowledge Based Wiki
 tags:
   - Me
 ---
+# Everything I log
 - [Read the Latest Updates](https://seopbo.github.io/latest/)
 
 ## Why this build?
@@ -19,6 +19,5 @@ tags:
 
 ## Contact me
 - Email: bsk0130@gmail.com
-
 
 [about]: about.md "About Me and Career"
