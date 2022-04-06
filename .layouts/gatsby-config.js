@@ -6,7 +6,7 @@ const siteMetadata = {
   description:
     "Personal wiki, share everything I learned, and spend a lifetime updating it. I hope it'll be a good gift for my grandchildren.",
   twitterName: "",
-  imageUrl: "/graph-visualisation.jpg",
+  imageUrl: "/second_brain.png",
   siteUrl: "https://seopbo.github.io",
 };
 module.exports = {
