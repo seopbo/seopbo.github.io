@@ -29,6 +29,10 @@ module.exports = {
       options: {
         icon: "./static/logo.png",
         sidebarComponents: ["latest", "tag"],
+        sidebarComponents: ["tag"],
+        mdxOtherwiseConfigure: false,
+        remarkPlugins: [require("remark-math")],
+        rehypePlugins: [require("rehype-katex")],
         defaultIndexLatestPostCount: 15,
         searchBody: true,
         nav: [
