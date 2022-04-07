@@ -1,7 +1,7 @@
 const path = require("path");
 const pathPrefix = "/";
 const siteMetadata = {
-  title: "Everything I Know by Seobo",
+  title: "Everything I Know by Seopbo",
   shortName: "Wiki",
   description:
     "Personal wiki, share everything I learned, and spend a lifetime updating it. I hope it'll be a good gift for my grandchildren.",
@@ -28,7 +28,6 @@ module.exports = {
       resolve: "gatsby-theme-primer-wiki",
       options: {
         icon: "./static/logo.png",
-        sidebarComponents: ["latest", "tag"],
         mdxOtherwiseConfigure: false,
         remarkPlugins: [require("remark-math")],
         rehypePlugins: [require("rehype-katex")],
