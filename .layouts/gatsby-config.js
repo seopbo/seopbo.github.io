@@ -28,7 +28,8 @@ module.exports = {
       resolve: "gatsby-theme-primer-wiki",
       options: {
         icon: "./static/logo.png",
-        sidebarComponents: ["latest", "tag"],
+        sidebarComponents: ["latest", "tag"], // deploy
+        // sidebarComponents: ["tag"], // for local test
         remarkPlugins: [require("remark-math")],
         rehypePlugins: [require("rehype-katex")],
         defaultIndexLatestPostCount: 15,
@@ -43,6 +44,7 @@ module.exports = {
           return date;
         },
         nav: [
+          //  Deploy, If you deploy by github pages, you'll remove "//""
           {
             title: "Latest",
             url: "/latest/",
@@ -52,7 +54,7 @@ module.exports = {
             items: [
               {
                 title: "About",
-                url: "/about/",
+                url: "/About/",
               },
               {
                 title: "Github",
