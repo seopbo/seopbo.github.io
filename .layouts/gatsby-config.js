@@ -28,7 +28,7 @@ module.exports = {
       resolve: "gatsby-theme-primer-wiki",
       options: {
         icon: "./static/logo.png",
-        mdxOtherwiseConfigure: false,
+        sidebarComponents: ["latest", "tag"],
         remarkPlugins: [require("remark-math")],
         rehypePlugins: [require("rehype-katex")],
         defaultIndexLatestPostCount: 15,
