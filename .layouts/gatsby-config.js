@@ -33,6 +33,15 @@ module.exports = {
         rehypePlugins: [require("rehype-katex")],
         defaultIndexLatestPostCount: 15,
         searchBody: true,
+        lastUpdatedTransformer: (isoString) => {
+          const dateObj = new Date(isoString);
+          const date = dateObj.toLocaleString("ko-KR", {
+            day: "numeric",
+            month: "numeric",
+            year: "numeric",
+          });
+          return date;
+        },
         nav: [
           {
             title: "Latest",
